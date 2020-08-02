@@ -40,5 +40,8 @@ function priceCalc(e) {
     pizzaNumber.value +
     +pizzaLocation.value;
     }
+    deliveryOutput{
+        alert("your order will be delivered to your location");
+    }
     }
     
