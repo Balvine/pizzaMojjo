@@ -13,4 +13,21 @@ var toppingOutput = document.getElementById("toppingOutput");
 var quantityOutput = document.getElementById("quantityOutput");
 var deliveryOutput = document.getElementById("deliveryOutput");
 
-var total amount = document.getElementById("totals");
+var totals= document.getElementById("totals");
+
+//calculations
+priceForm.addEventListener("submit",priceCalc);
+
+function priceCalc(e) {
+    e.preventDefault();
+
+
+    if (
+    pizzaSize ==="" ||
+    pizzaCrust ==="" ||
+    pizzaTopping === "" ||
+    pizzaNumber === "" ||
+    ){
+        alert=("Fill in the required inputs(starred*)");
+    }
+}
