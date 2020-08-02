@@ -23,10 +23,10 @@
       <div class="row">
         <div class="col col-md-6">
         <div class="pl-5">
-         <form id="priceform">
+         <form id="priceForm">
            <div class=form-group>
              <label for="number">choose your pizza size</label>
-             <select class="form-control" id="pizzasize">
+             <select class="form-control" id="pizzaSize">
              <option value="600"selected>small size</option>
              <option value="900">Medium size</option>
              <option value="1200">Large size</option>
@@ -35,7 +35,7 @@
          </form>
          <div class="form-group">
            <label for="number">choose the crust on your pizza</label>
-             <select class="form-control" id="crust type">
+             <select class="form-control" id="pizzaCrust">
                <option value="80">Deep pan</option>
                <option value="85">Classic crust</option>
                <option value="90">thin 'n' crispy</option>
@@ -73,7 +73,7 @@
            <label for="number"
              >Do you want it delivered? Enter your location.</label>
            >
-           <select id=Pizzaloaction class="form-control">
+           <select id=PizzaLocation class="form-control">
              <option value="0" selected
              >please select your area of residence</option>
              <option value="500">Nairobi</option>
@@ -87,29 +87,54 @@
 
            order
          </button>
-
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div> 
-        </div>
-      </div>
-
+        </form>
+     </div>
     </div>
+       <div class="col-md-1"></div>
+       <div class="col-md-5 mt-4 image-div">
+         <table
+         class="table table-condensed table-bordered shadow-lg table-dark tablr-hover"
+         >
+         <tr class="text-center">
+           <th>Product</th>
+           <th>price(Shs.)</th>
+         </tr>
+         <tr>
+           <td class="totals text-center">Pizza</td>
+           <td id="pizzaOutput" class="text-center"></td>
+         </tr>
+         <tr>
+          <td class="totals text-center">Crust</td>
+          <td id="crustOutput" class="text-center"></td>
+        </tr>
+        <tr>
+          <td class="totals text-center">Quantity</td>
+          <td id="quantityOutput" class="text-center"></td>
+        </tr>
+        <tr>
+          <td class="totals text-center">Delivery</td>
+          <td id="daliveryOutput" class="text-center"></td>
+        </tr>
+        <tr class="text-center">
+          <th>Total Amount</th>
+          <td id="totals"></td>
+        </tr>
+      </table>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
