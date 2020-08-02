@@ -18,16 +18,27 @@ var totals= document.getElementById("totals");
 //calculations
 priceForm.addEventListener("submit",priceCalc);
 
+
 function priceCalc(e) {
     e.preventDefault();
-
-
+    
     if (
-    pizzaSize ==="" ||
-    pizzaCrust ==="" ||
+    pizzaSize === "" ||
+    pizzaCrust === "" ||
     pizzaTopping === "" ||
-    pizzaNumber === "" ||
-    ){
-        alert=("Fill in the required inputs(starred*)");
+    pizzaNumber === ""
+    ) {
+    alert("Fill in the required inputs. (starred*)");
+    } else {
+    pizzaOutput.innerHTML = `${pizzaSize.value}`;
+    crustOutput.innerHTML = `${pizzaCrust.value}`;
+    toppingOutput.innerHTML = `${pizzaTopping.value}`;
+    quantityOutput.innerHTML = `${pizzaNumber.value}`;
+    deliveryOutput.innerHTML = `${pizzaLocation.value}`;
+    totals.innerHTML =
+    (+pizzaSize.value + +pizzaCrust.value + +pizzaTopping.value) *
+    pizzaNumber.value +
+    +pizzaLocation.value;
     }
-}
+    }
+    
