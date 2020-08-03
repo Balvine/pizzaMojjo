@@ -12,7 +12,7 @@ If you want to access my website go to my git hub page and click on the  below (
 * Javascript
 * Jquery
 #BDD
-- This project is about learning more about the javascript functions and how to make a reson
+- This project is about learning more about the javascript functions and how to make a responsive website where a user is able to make an order and get it delivered if they want to also it helps a user be able to get their price total for their ordered pizza.
 ## PROJECTS LINKS
 [Link to my github page. ](https://github.com/Balvine/pizzaMojjo)
 
