@@ -49,6 +49,15 @@ div nav a:hover {
   z-index: 5;
 }
 
+#social {
+  padding-top: 40px;
+  }
+  
+  #social-padding img {
+  padding: 5px;
+  }
+  
+
 #rights{
   margin-left: 530px;
   margin-top: 300px;
