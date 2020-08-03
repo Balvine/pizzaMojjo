@@ -12,7 +12,7 @@ If you want to access my website go to my git hub page and click on the  below (
 * Javascript
 * Jquery
 #BDD
-- This project is about learning more about the jquery library such that in the landing page ot the the studio when the image in the what we do section are clicked the are able to behave different by toggling and showing the other side of it ,also the in the portofolio section when the images are clicked the are able to show one content ot and hide the other side.
+- This project is about learning more about the javascript functions and how to make a reson
 ## PROJECTS LINKS
 [Link to my github page. ](https://github.com/Balvine/pizzaMojjo)
 
