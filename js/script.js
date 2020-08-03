@@ -41,3 +41,12 @@ function priceCalc(e) {
       +pizzaLocation.value;
   }
 }
+
+$(document).ready(function () {
+  $('form.contact').on('submit', function (e) {
+      
+              alert(' Thank you for your feedback');
+              $('form.contact')[0].reset();
+        
+      });
+  })
