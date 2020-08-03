@@ -15,7 +15,7 @@ var quantityOutput = document.getElementById("quantityOutput");
 var deliveryOutput = document.getElementById("deliveryOutput");
 var totals = document.getElementById("totals");
 
-//=>add functionality
+//=>add functionality''
 priceForm.addEventListener("submit", priceCalc);
 
 function priceCalc(e) {
@@ -29,6 +29,7 @@ function priceCalc(e) {
   ) {
     alert("Fill in the required inputs. (starred*)");
   } else {
+    alert(" your order will be delivered to your location");
     pizzaOutput.innerHTML = `${pizzaSize.value}`;
     crustOutput.innerHTML = `${pizzaCrust.value}`;
     toppingOutput.innerHTML = `${pizzaTopping.value}`;
