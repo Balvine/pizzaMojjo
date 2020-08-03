@@ -49,7 +49,37 @@ div nav a:hover {
   z-index: 5;
 }
 
+.mForm {
+  padding-top: 70px;
+  padding-left: -10;
+}
 
+form#contact-form::-webkit-input-placeholder {
+ 
+  color: white;
+}
+
+form#contact-form :-ms-input-placeholder {
+
+  color: white;
+}
+
+form#contact-form ::placeholder {
+  color: white;
+}
+
+.isInput,
+.isInput:focus {
+  background-color: transparent;
+  color: #fff
+}
+
+
+.isInput,
+.isInput:focus {
+  background-color: transparent;
+  color: #fff
+}
   
 
 #rights{
